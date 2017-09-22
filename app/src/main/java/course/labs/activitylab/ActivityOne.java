@@ -15,6 +15,14 @@ public class ActivityOne extends Activity {
 
 		// lifecycle counts
 		//TODO: Create 7 counter variables, each corresponding to a different one of the lifecycle callback methods.
+		int onCreateCount;
+		int onStartCount;
+		int onResumeCount;
+		int onPauseCount;
+		int onStopCount;
+		int onDestroyCount;
+		int onRestartCount;
+
 		//TODO:  increment the variables' values when their corresponding lifecycle methods get called.
 		
 		@Override
